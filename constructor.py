@@ -1,6 +1,4 @@
-#1
-
-'''class amount():
+class amount():
     
     def getvalues(self, bill):
         bill = int(input("enter your total bill: "))
