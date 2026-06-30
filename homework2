@@ -1,0 +1,10 @@
+temperature=[12,13,54,66,78,57]
+hot_days=[temp for temp in temperature if temp>30]
+print (hot_days)
+num=[12,32,4,3,5,67,8,6]
+i=0
+square=[sqr**2 for sqr in num   ]
+square.pow();
+square.append(num)
+
+print(square)
