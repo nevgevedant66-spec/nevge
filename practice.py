@@ -112,8 +112,10 @@ class structure:
             i+=1
         k=feesb[0]   
         g=[] 
-        if i>200:
-            self.d=k*0.012
+        i=0
+        for fee in feesb:
+            if fee>200:
+                self.d=fee*0.012
             g.append(self.d)
         print(g)    
 d=structure()
